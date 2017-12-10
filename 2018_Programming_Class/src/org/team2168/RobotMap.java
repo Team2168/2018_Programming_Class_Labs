@@ -23,6 +23,9 @@ public class RobotMap {
 	
 	//Joysticks/////////////////
 	
+	public static int driverJoystick = 0;
+	public static int operatorJoystick = 1;
+	
 	//PWM(0-9)
 	public static final int LEFT_MOTOR_1_PWM = 0;
 	public static final int LEFT_MOTOR_2_PWM = 1;
@@ -38,5 +41,26 @@ public class RobotMap {
 	
 	//////////////////////DRIVETRAIN////////////////////////////
 	public static final boolean REVERSE_LEFT_1_MOTOR_DIRECTION = false;
+	public static final boolean REVERSE_LEFT_2_MOTOR_DIRECTION = false;
+	public static final boolean REVERSE_LEFT_3_MOTOR_DIRECTION = false;
+	
+	public static final boolean REVERSE_RIGHT_1_MOTOR_DIRECTION = true;
+	public static final boolean REVERSE_RIGHT_2_MOTOR_DIRECTION = true;
+	public static final boolean REVERSE_RIGHT_3_MOTOR_DIRECTION = true;
+	
+	
+	
+	
+	///Solendods///
+	
+	
+	
+	
+	///Relays///
+	
+	
+	
+	
+	///DIO///
 	
 }
