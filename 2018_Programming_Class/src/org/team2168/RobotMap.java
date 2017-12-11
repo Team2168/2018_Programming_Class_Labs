@@ -37,5 +37,10 @@ public class RobotMap {
 	
 	
 	//drivetrain///////////////////////////////////////////////////////
-	public static final boolean REVERSE_LEFT_1_MOTOR_DIRECTION = false;
+	public static final boolean DT_REVERSE_LEFT = false;
+	public static final boolean DT_REVERSE_RIGHT = true;
+	//joysticks///////////////////////////////////////////////////////
+	public static final int DRIVERJOYSTICK = 0;
+	public static final int OPERATORJOYSTICK =1 ;
+	
 }

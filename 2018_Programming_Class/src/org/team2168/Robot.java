@@ -6,6 +6,7 @@ import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import org.team2168.commands.ExampleCommand;
+import org.team2168.subsystems.Drivetrain;
 
 
 /**
@@ -19,6 +20,7 @@ public class Robot extends IterativeRobot {
 
 	//public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
 	public static OI oi;
+	public static Drivetrain drivetrain;
 
     Command autonomousCommand;
 
@@ -27,7 +29,7 @@ public class Robot extends IterativeRobot {
      * used for any initialization code.
      */
     public void robotInit() {
-		oi = new OI();
+    	oi = OI.getInstance();
         // instantiate the command used for the autonomous period
         autonomousCommand = new ExampleCommand();
     }
